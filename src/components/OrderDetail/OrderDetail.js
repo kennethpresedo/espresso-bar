@@ -49,3 +49,4 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
       </div>
     );
   }
+  
