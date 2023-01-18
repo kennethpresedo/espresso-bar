@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100&display=swap');
+
 :root {
     --white: #FFFFFF;
     --tan-1: #FBF9F6;
     --tan-2: #E7E2DD;
     --tan-3: #E2D9D1;
-    --tan-4: #D3C1AE;
+    --tan-4: #000000;
     --orange: #F67F00;
     --text-light: #968c84;
     --text-dark: #615954;
+    /* background-image: url('https://www.designerstoday.com/wp-content/uploads/sites/16/2020/03/Bouquet-WP-Flatlay-FETISH-CC-050-054-BATTLE-CC-050-053-KIKU-CC-080-057-WARM-MOON-CC-040-090-e1585162637787.jpg'); */
+    background-size: cover;
   }
 
   *, *:before, *:after {
@@ -15,9 +19,8 @@
 
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    font-family: 'Italiana', serif;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--tan-4);
@@ -52,6 +55,7 @@
     align-items: center;
   }
 
+    /*total background / checkout/ hunry*/
   .flex-col {
     flex-direction: column;
   }
@@ -60,15 +64,17 @@
     justify-content: flex-end;
   }
 
-  .scroll-y {
+  /*total background / checkout/ hunry*/
+  /* .scroll-y {
     overflow-y: scroll;
-  }
+  } */
 
   .section-heading {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--tan-1);
+    /* background-color: var(--tan-1); */
+    background-color: transparent;
     color: var(--text-dark);
     border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
@@ -77,31 +83,36 @@
     font-size: 2vmin;
   }
 
+  /*Login/Signup email password*/
   .form-container {
     padding: 3vmin;
-    background-color: var(--tan-1);
+    /* background-color: var(--tan-1); */
     border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
-  }
+  } 
 
+  /*Login/Signup*/
   p.error-message {
     color: var(--orange);
     text-align: center;
   }
 
+  /*Login/Signup*/
   form {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 1.25vmin;
     color: var(--text-light);
-  }
+  } 
 
+  /*Login/Signup*/
   label {
     font-size: 2vmin;
     display: flex;
     align-items: center;
   }
 
+  /*Login/Signup*/
   input {
     padding: 1vmin;
     font-size: 2vmin;
@@ -112,14 +123,16 @@
     outline: none;
   }
 
+  /*Login/Signup*/
   input:focus {
     border-color: var(--orange);
   }
 
+  /*all buttons*/
   button, a.button {
     margin: 1vmin;
     padding: 1vmin;
-    color: var(--white);
+    color: var(--black);
     background-color: var(--orange);
     font-size: 2vmin;
     font-weight: bold;
@@ -131,11 +144,13 @@
     cursor: pointer;
   }
 
+  /*add to cart button*/
   button.btn-sm {
     font-size: 1.5vmin;
     padding: .6vmin .8vmin;
   }
 
+  /*quantity in cart*/
   button.btn-xs {
     font-size: 1vmin;
     padding: .4vmin .5vmin;
@@ -146,6 +161,7 @@
     background-color: var(--tan-4);
   }
 
+  /*sign in submit light up*/
   button[type="submit"] {
     grid-column: span 2;
     margin: 1vmin 0 0;
