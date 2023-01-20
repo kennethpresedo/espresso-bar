@@ -4,6 +4,13 @@
     padding: 0;
     font-size: 1.7vw;
     border: .2vmin solid var(--tan-3);
+    display: grid;
+    grid-template-columns: 3.6fr 3.5fr 3fr;
+    grid-template-rows: 1fr;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     }
     
     .CategoryList li {

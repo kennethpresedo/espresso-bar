@@ -9,7 +9,7 @@
     --orange: #F67F00;
     --text-light: #968c84;
     --text-dark: #615954;
-    /* background-image: url('https://www.designerstoday.com/wp-content/uploads/sites/16/2020/03/Bouquet-WP-Flatlay-FETISH-CC-050-054-BATTLE-CC-050-053-KIKU-CC-080-057-WARM-MOON-CC-040-090-e1585162637787.jpg'); */
+    /* background-image: url('https://i.pinimg.com/564x/9e/b7/f4/9eb7f49a83e859fa9cfb003e13df45c4.jpg');   */
     background-size: cover;
   }
 
@@ -23,7 +23,7 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--tan-4);
+    background-color: green;
     padding: 2vmin;
     height: 100vh;
   }
