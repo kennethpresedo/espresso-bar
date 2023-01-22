@@ -6,14 +6,15 @@ import AuthPage from '../AuthPage/AuthPage';
 import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
+import OrderDetail from '../../components/OrderDetail/OrderDetail';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
     <main className={styles.App}>
-<NavBar />
       { user ?
         <>
+        <NavBar />
           <Routes>
             {/* client-side route that renders the component instance if the path matches the url in the address bar */}
             <Route path="/orders/new" element={<NewOrderPage user={user} setUser={setUser} />} />

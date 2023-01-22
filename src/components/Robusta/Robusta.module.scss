@@ -1,0 +1,34 @@
+.Robusta {
+    background-color: wheat;
+    width: 100%;
+    height: 85%;
+    margin: 0 auto;
+    // -webkit-filter: grayscale(100%);
+    // filter: grayscale(100%);
+    // opacity: .7;
+    display: flex;
+    align-items: center;
+   // justify-content: flex-start;
+    font-size: 03rem;
+    //padding-left: 50%;
+    padding-right: 15%;
+    padding-left: 5%;
+}
+
+.blurb {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    min-width: 20%;
+}
+
+
+.banner {
+    background-color: black;
+    color: wheat;
+    padding-left: 20%;
+    padding-right: 05%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 5%;
+}

@@ -6,19 +6,22 @@
     font-size: 2vmin;
     color: var(--text-light);
     border: .2vmin solid var(--tan-3);
+    background-color: red;
   }
   
   .OrderDetail .sectionHeading {
     width: 100%;
     border: .2vmin solid var(--tan-3);
+    background-color: blue;
   }
   
   .OrderDetail .lineItemContainer {
     margin-top: 3vmin;
     justify-content: flex-start;
-    height: calc(100vh - 18vmin);
+    // height: calc(100vh - 18vmin);
     width: 100%;
     border: .2vmin solid var(--tan-3);
+    background-color: black;
   }
   
   .OrderDetail .total {
@@ -28,6 +31,7 @@
     padding: 1vmin 0;
     color: var(--text-light);
     border-top: .1vmin solid var(--tan-3);
+    background-color: yellow;
   }
   
   .OrderDetail .total span {
@@ -36,15 +40,18 @@
     align-items: center;
     font-size: 1.5vw;
     color: var(--text-dark);
+    background-color: white;
   }
   
   .OrderDetail .total span.right {
     display: flex;
     justify-content: flex-end;
+    background-color: purple;
   }
   
   .OrderDetail .hungry {
     position: absolute;
     top: 50vh;
     font-size: 2vmin;
+    background-color: olivedrab;
   }

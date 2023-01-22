@@ -1,10 +1,25 @@
-.Landing{
+.Landing {
     background-image: url('https://i.pinimg.com/originals/b5/77/40/b5774094eb04698ac372aff3cf7f726b.gif');
     background-size: cover;
     width: 100%;
     height: 100%;
     margin: 0 auto;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: .7;
+    filter: grayscale(50%);
+    // opacity: .7;
+    display: flex;
+    align-items: center;
+   // justify-content: flex-start;
+    font-size: 05rem;
+    padding-right: 60%;
+}
+
+.banner {
+    background-color: black;
+    color: wheat;
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 5%;
 }
