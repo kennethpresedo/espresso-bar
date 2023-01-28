@@ -26,4 +26,4 @@ export default function AuthPage({ setUser }) {
       <Footer />
     </main>
   );
-}
+} 

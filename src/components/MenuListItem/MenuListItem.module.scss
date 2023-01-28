@@ -4,36 +4,40 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3vmin;
-  padding: 2vmin;
-  color: var(--text-light);
-  // background-color: var(--white);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
-  font-size: 4vmin;
+  padding: .5vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 5rem;
+  color: blanchedalmond;
+  //background-color: black;
+  //border: .1vmin solid blanchedalmond;
+  //border-radius: 1vmin;
+  // font-size: 5vmin;
 }
 
-.MenuListItem .emoji {
-  height: 8vw;
-  width: 8vw;
-  font-size: 4vw;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
-}
+// .MenuListItem .emoji {
+//   height: 8vw;
+//   width: 8vw;
+//   font-size: 4vw;
+//   background-color: var(--tan-1);
+//   border: .1vmin solid var(--tan-3);
+//   border-radius: 1vmin;
+// }
 
 .MenuListItem .buy {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  row-gap: 3%;
 }
 
 .MenuListItem .buy span {
-  font-size: 1.7vw;
+  font-size: 2.5vw;
   text-align: center;
-  color: var(--text-light);
+  color: blanchedalmond;
 }
 
 .MenuListItem .name {
-  font-size: 2vw;
+  font-size: 2.5rem;
   text-align: center;
-  color: var(--text-light);
+  color: blanchedalmond;
 }

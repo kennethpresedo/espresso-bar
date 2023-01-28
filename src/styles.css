@@ -9,7 +9,7 @@
     --orange: #F67F00;
     --text-light: #968c84;
     --text-dark: #615954;
-    /* background-image: url('https://i.pinimg.com/564x/9e/b7/f4/9eb7f49a83e859fa9cfb003e13df45c4.jpg');   */
+    background-image: url('https://img.freepik.com/free-photo/blue-gold-marble-textured-background_53876-101585.jpg?w=2000&t=st=1674870898~exp=1674871498~hmac=d6e1c94853ebd3c80fa020ccfde36f227bb71f8b380cf9350b259824c0d1bb50');  
     background-size: cover;
   }
 
@@ -22,7 +22,6 @@
     font-family: 'Italiana', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(24, 23, 21);
     padding: 1vmin;
     height: 100vh;
   }
@@ -75,7 +74,7 @@
     /* background-color: var(--tan-1); */
     background-color: transparent;
     color: var(--text-dark);
-    border: .1vmin solid var(--tan-3);
+    border: .1vmin solid var(--tan-3); 
     border-radius: 1vmin;
     padding: .6vmin;
     text-align: center;
@@ -85,11 +84,15 @@
   /*Login/Signup email password*/
   .form-container {
     padding: 3vmin;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+    margin-left: 12vmin;
+    margin-right: 12vmin;
     /* background-color: var(--tan-1); */
-    border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
-    background-color: wheat;
-    padding: 5%;
+    border: .3vmin solid white; 
+    /* box-shadow:  5px 10px wheat; */
+    /* border-radius: 1vmin; */
+    /* background-color: blanchedalmond; */
   } 
 
   /*Login/Signup*/
@@ -102,46 +105,45 @@
   form {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 1.25vmin;
-    color: var(--text-light);
-    background-color: aquamarine;
+    color: black;
   } 
 
   /*Login/Signup*/
   label {
-    font-size: 2vmin;
-    display: flex;
-    align-items: center;
-    background-color: coral;
+    font-size: 4vmin;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
   }
 
   /*Login/Signup*/
   input {
+    font-family: 'Italiana', serif;
     padding: 1vmin;
+    background-color:transparent;
     font-size: 2vmin;
-    border: .1vmin solid var(--tan-3);
+    border: .2vmin solid white;
     border-radius: .5vmin;
-    color: var(--text-dark);
-    background-image: none !important; /* prevent lastpass */
+    color: black;
+    background-image: none !important;
+    /* prevent lastpass */
     outline: none;
   }
 
   /*Login/Signup*/
   input:focus {
-    border-color: var(--orange);
+    border-color: black;
   }
 
   /*all buttons*/
   button, a.button {
+    font-family: 'Italiana', serif;
     margin: 1vmin;
     padding: 1vmin;
-    color: var(--black);
-    background-color: var(--orange);
-    font-size: 2vmin;
-    font-weight: bold;
+    color: black;
+    font-size: 3vmin;
     text-decoration: none;
     text-align: center;
-    border: .1vmin solid var(--tan-2);
+    border: .1vmin solid white;
     border-radius: .5vmin;
     outline: none;
     cursor: pointer;
@@ -149,9 +151,20 @@
 
   /*add to cart button*/
   button.btn-sm {
-    font-size: 1.5vmin;
+    font-size: 2.3vmin;
+    background-color: transparent;
+    color: blanchedalmond;
+    border: .1vmin solid blanchedalmond;
     padding: .6vmin .8vmin;
   }
+  button.btn-sm:hover {
+    font-size: 2.3vmin;
+    background-color: blanchedalmond;
+    color: black;
+    border: .1vmin solid blanchedalmond;
+    padding: .6vmin .8vmin;
+  }
+
 
   /*quantity in cart*/
   button.btn-xs {
@@ -161,11 +174,16 @@
 
   button:disabled, form:invalid button[type="submit"] {
     cursor: not-allowed;
-    background-color: var(--tan-4);
+    background-color: transparent;
   }
 
   /*sign in submit light up*/
   button[type="submit"] {
     grid-column: span 2;
     margin: 1vmin 0 0;
+  }
+
+  a.link {
+  color: blanchedalmond;
+  text-decoration: none;
   }
