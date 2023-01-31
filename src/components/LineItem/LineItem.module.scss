@@ -1,31 +1,33 @@
 .LineItem {
     width: 100%;
     display: grid;
-    grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
+    grid-gap: 20%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 1vmin 0;
-    color: var(--text-light);
-    // background-color: var(--white);
-    border-top: .1vmin solid var(--tan-3);
-    font-size: 1.5vw;
-    
+    border-top: .1vmin solid blanchedalmond;
+    font-size: 2.5vw;
+    align-items: center;
+    padding-left: 1%;
     }
     
     .LineItem:last-child {
-    border-bottom: .1vmin solid var(--tan-3);
+    border-bottom: .1vmin solid blanchedalmond;
     }
     
     .LineItem .qty {
     display: flex;
-    justify-content: space-between;
+    justify-self: center;
     align-items: center;
-    font-size: 1.3vw;
+    font-size: 3.3vw;
     }
     
     .LineItem .extPrice {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.3vw;
+    font-size: 2.3vw;
+    padding-right: 10%;
+    color: blanchedalmond;
     }
     
     .LineItem button {

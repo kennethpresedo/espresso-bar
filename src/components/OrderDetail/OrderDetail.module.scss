@@ -1,37 +1,45 @@
 .OrderDetail {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 3vmin;
     font-size: 2vmin;
     color: var(--text-light);
-    border: .2vmin solid var(--tan-3);
-    background-color: red;
+    border: .2vmin solid blanchedalmond;
+    background-color: black;
   }
   
   .OrderDetail .sectionHeading {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2%;
+    font-size: 2rem;
     width: 100%;
-    border: .2vmin solid var(--tan-3);
-    background-color: blue;
+    // border: .2vmin solid blanchedalmond;
+    color: blanchedalmond;
   }
   
   .OrderDetail .lineItemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 3vmin;
-    justify-content: flex-start;
-    // height: calc(100vh - 18vmin);
+    //height: calc(100vh - 18vmin);
     width: 100%;
-    border: .2vmin solid var(--tan-3);
-    background-color: black;
+    border: .2vmin solid blanchedalmond;
   }
   
   .OrderDetail .total {
     width: 100%;
-    display: grid;
-    grid-template-columns: 18.35vw 5.75vw 5.25vw;
+    display: flex;
+    // grid-template-columns: 18.35vw 5.75vw 5.25vw;
     padding: 1vmin 0;
-    color: var(--text-light);
-    border-top: .1vmin solid var(--tan-3);
-    background-color: yellow;
+    color: blanchedalmond;
+    border-top: .1vmin solid blanchedalmond;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
   .OrderDetail .total span {
@@ -39,14 +47,15 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
-    color: var(--text-dark);
-    background-color: white;
+    color: blanchedalmond;
   }
   
   .OrderDetail .total span.right {
     display: flex;
-    justify-content: flex-end;
-    background-color: purple;
+    justify-content: space-evenly;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: red;
   }
   
   .OrderDetail .hungry {
@@ -55,3 +64,4 @@
     font-size: 2vmin;
     background-color: olivedrab;
   }
+
