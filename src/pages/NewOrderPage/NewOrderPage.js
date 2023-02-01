@@ -74,7 +74,7 @@ export default function NewOrderPage({ user, setUser }) {
         handleChangeQty={handleChangeQty}
         handleCheckout={handleCheckout}
       />
-      <Link to="/orders" className="button btn-sm">PREVIOUS ORDERS</Link><br />
+      {/* <Link to="/orders" className="button btn-sm">PREVIOUS ORDERS</Link><br /> */}
       <UserLogOut user={user} setUser={setUser} /> <br />
     </main>
   );

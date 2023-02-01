@@ -99,7 +99,10 @@
 
   /*Login/Signup*/
   p.error-message {
-    color: var(--orange);
+    color: black;
+    background-color: blanchedalmond;
+    font-weight: 800;
+    padding: 5%;
     text-align: center;
   }
 
@@ -152,21 +155,45 @@
   }
 
   /*add to cart button*/
-  button.btn-sm {
-    font-size: 2.3vmin;
+  button.btn-smCK {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    font-size: 2rem;
     background-color: transparent;
-    color: blanchedalmond;
-    border: .1vmin solid blanchedalmond;
-    padding: .6vmin .8vmin;
-  }
-  button.btn-sm:hover {
-    font-size: 2.3vmin;
-    background-color: blanchedalmond;
     color: black;
-    border: .1vmin solid blanchedalmond;
+    border: .2vmin solid black;
     padding: .6vmin .8vmin;
+    font-weight: 800;
   }
 
+button.btn-smCK:hover{
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  background-color: transparent;
+  color: blanchedalmond;
+  border: .2vmin solid blanchedalmond;
+  background-color: black;
+  padding: .6vmin .8vmin;
+  font-weight: 800;
+}
+
+button.btn-smADD {
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: blanchedalmond;
+  border: .2vmin solid blanchedalmond;
+  padding: .1vmin .8vmin;
+}
+
+button.btn-smADD:hover {
+  font-size: 1.5rem;
+  background-color: blanchedalmond;
+  color: black;
+  padding: .1vmin .8vmin;
+}
 
   /*quantity in cart*/
   button.btn-xs {
@@ -192,4 +219,21 @@
   a.link {
   color: blanchedalmond;
   text-decoration: none;
+  }
+
+  button.btn-smLO {
+    font-size: 2rem;
+    background-color: blanchedalmond;
+    color: black;
+    border: .2vmin solid black;
+    padding: .6vmin .8vmin;
+    font-weight: 800;
+  }
+
+  button.btn-smLO:hover {
+    font-size: 2rem;
+    background-color: black;
+    color: blanchedalmond;
+    padding: .6vmin .8vmin;
+    font-weight: 800;
   }

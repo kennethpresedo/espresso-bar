@@ -9,9 +9,9 @@ function handleLogOut() {
 
 return (
   <div className={styles.UserLogOut}>
-    <div>{user.name}</div>
+    <div>Logged In as: <br />{user.name}</div>
     <div className={styles.email}>{user.email}</div>
-    <button className="btn-sm" onClick={handleLogOut}>LOG OUT</button>
+    <button className="btn-smLO" onClick={handleLogOut}>LOG OUT</button>
   </div>
 );
 }
