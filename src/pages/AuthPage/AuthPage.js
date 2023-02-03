@@ -19,7 +19,6 @@ export default function AuthPage({ setUser }) {
       <Arabica />
       <Robusta />
       <div>
-        {/* <Logo /> */}
         <h3 onClick={() => setShowLogin(!showLogin)}>{showLogin ? 'Not A Member?' : 'Already A Member?'}</h3>
       {showLogin ? <LoginForm setUser={setUser} /> : <SignUpForm setUser={setUser} />}
       </div>
