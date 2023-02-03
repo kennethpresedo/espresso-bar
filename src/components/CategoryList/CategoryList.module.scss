@@ -5,7 +5,7 @@
     font-size: 2.5vw;
     border: .2vmin solid blanchedalmond;
     display: grid;
-    grid-template-columns: 3.6fr 3.5fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 1fr;
     margin-right: 1%;
     margin-left: 1%;
@@ -25,7 +25,6 @@
     cursor: pointer;
     background-color: blanchedalmond;
     color: black;
-    font-size: 2.8vw;
     }
     
     .CategoryList li.active {

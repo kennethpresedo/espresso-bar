@@ -4,12 +4,13 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3vmin;
-    padding: 2vmin;
-    color: var(--text-light);
-    // background-color: var(--white);
-    border: .2vmin solid var(--tan-3);
-    border-radius: 1vmin;
-    font-size: 2vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    color: blanchedalmond;
+    border: .2vmin solid blanchedalmond;
+    font-size: 4vmin;
     cursor: pointer;
     }
     
@@ -18,12 +19,22 @@
     }
     
     .OrderListItem.selected {
-    border-color: var(--orange);
+    color: black;
+    background-color: blanchedalmond;
     border-width: .2vmin;
-    cursor: default;
+    cursor: pointer;
+    font-weight: 1000;
     }
+
+    .smaller.selected{
+        color: black;
+    }
+
     
     .OrderListItem:not(.selected):hover {
-    border-color: var(--orange);
-    border-width: .2vmin;
+        color: black;
+        background-color: blanchedalmond;
+        border-width: .2vmin;
+        cursor: pointer;
+        font-weight: 1000;
     }

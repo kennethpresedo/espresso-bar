@@ -3,14 +3,9 @@
 :root {
     --white: #FFFFFF;
     --tan-1: #FBF9F6;
-    --tan-2: #E7E2DD;
-    --tan-3: #E2D9D1;
-    --tan-4: #000000;
-    --orange: #F67F00;
-    --text-light: #968c84;
-    --text-dark: #615954;
-    background-image: url('https://img.freepik.com/free-photo/blue-gold-marble-textured-background_53876-101585.jpg?w=2000&t=st=1674870898~exp=1674871498~hmac=d6e1c94853ebd3c80fa020ccfde36f227bb71f8b380cf9350b259824c0d1bb50');  
-   /* background-image: url('https://static.vecteezy.com/system/resources/previews/005/676/286/original/abstract-colorful-background-wallpaper-mixing-acrylic-paints-modern-art-paint-marble-texture-alcohol-ink-colors-translucent-free-vector.jpg'); */
+
+    /* background-image: url('https://img.freepik.com/free-photo/blue-gold-marble-textured-background_53876-101585.jpg?w=2000&t=st=1674870898~exp=1674871498~hmac=d6e1c94853ebd3c80fa020ccfde36f227bb71f8b380cf9350b259824c0d1bb50');   */
+   background-image: url('https://static.vecteezy.com/system/resources/previews/005/676/286/original/abstract-colorful-background-wallpaper-mixing-acrylic-paints-modern-art-paint-marble-texture-alcohol-ink-colors-translucent-free-vector.jpg');
    /*background-image: ('https://img.freepik.com/free-vector/realistic-liquid-marble-background-with-gold_23-2148897013.jpg');  */
    background-size: cover;
   }
@@ -46,7 +41,8 @@
   }
 
   .smaller {
-    font-size: smaller;
+    font-weight: 1000;
+  
   }
 
   .flex-ctr-ctr {
@@ -64,16 +60,10 @@
     justify-content: flex-end;
   }
 
-  /*total background / checkout/ hunry*/
-  /* .scroll-y {
-    overflow-y: scroll;
-  } */
-
   .section-heading {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: var(--tan-1); */
     background-color: black;
     color: blanchedalmond;
     border: .1vmin solid blanchedalmond; 
@@ -90,15 +80,11 @@
     padding-right: 8vmin;
     margin-left: 12vmin;
     margin-right: 12vmin;
-    /* background-color: var(--tan-1); */
-    border: .3vmin solid white; 
-    /* box-shadow:  5px 10px wheat; */
-    /* border-radius: 1vmin; */
-    /* background-color: blanchedalmond; */
+    border: .3vmin solid blanchedalmond; 
   } 
 
   /*Login/Signup*/
-  p.error-message {
+  p.error-message:active {
     color: black;
     background-color: blanchedalmond;
     font-weight: 800;
@@ -110,7 +96,8 @@
   form {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    color: black;
+    color: blanchedalmond;
+    font-weight: 800;
   } 
 
   /*Login/Signup*/
@@ -126,7 +113,7 @@
     padding: 1vmin;
     background-color:transparent;
     font-size: 2vmin;
-    border: .2vmin solid white;
+    border: .2vmin solid blanchedalmond;
     border-radius: .5vmin;
     color: black;
     background-image: none !important;
@@ -148,7 +135,7 @@
     font-size: 3vmin;
     text-decoration: none;
     text-align: center;
-    border: .1vmin solid white;
+    border: .1vmin solid blanchedalmond;
     border-radius: .5vmin;
     outline: none;
     cursor: pointer;

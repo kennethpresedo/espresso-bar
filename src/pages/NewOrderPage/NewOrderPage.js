@@ -55,7 +55,7 @@ export default function NewOrderPage({ user, setUser }) {
 
   return (
     <main className={styles.NewOrderPage}>
-     <aside>
+     <div className={styles.aside}>
         {/* <Logo /> */}
         <CategoryList
           categories={categoriesRef.current}
@@ -64,7 +64,7 @@ export default function NewOrderPage({ user, setUser }) {
         />
         {/* previous orders link */}
         {/* logout link */}
-      </aside>
+      </div>
       <MenuList
         menuItems={menuItems.filter(item => item.category.name === activeCat)}
         handleAddToOrder={handleAddToOrder}

@@ -1,5 +1,6 @@
 .AuthPage {
     height: 80%;
+    width: 100%;
     font-size: 3rem;
     // display: flex;
     // justify-content: space-evenly;
@@ -9,7 +10,9 @@
   }
   
   .AuthPage h3 {
-    border: .3vmin solid white; 
+    // border: .3vmin solid blanchedalmond; 
+    font-weight: 800;
+    color:blanchedalmond;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 4vmin;

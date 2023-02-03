@@ -22,7 +22,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
             :
             <span>NEW ORDER</span>
           } 
-          <span>{new Date(order.updatedAt).toLocaleDateString()}</span>
+          <span className={styles.date}>{new Date(order.updatedAt).toLocaleDateString()}</span>
         </div>
         <div className={`${styles.lineItemContainer} flex-ctr-ctr flex-col`}>
           {lineItems.length ?
