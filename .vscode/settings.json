@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/fb3386f6-5316-4cf3-a02c-6c5847c877e8/AppServices/subscriptions/fb3386f6-5316-4cf3-a02c-6c5847c877e8/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/espresso-bar",
-    "appService.deploySubpath": "."
-}
