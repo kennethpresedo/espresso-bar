@@ -1,19 +1,18 @@
 .Break {
     background-image: url("https://osusume555.tokyo/wp/wp-content/uploads/2021/09/22275636_m.jpg");
-    background-size: repeat;
+    background-position: 50% 50%;
     transform: scaleX(-1);
     width: 100%;
-    height: 85%;
+    height: 25vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    font-size: 5rem;
-    padding-right: 50%;
-    border: .1vmin solid white;
+    font-size: 6vw;
+    padding-right: 65%;
 }
 
 
 .banner {
-    color: black;
+    color: rgb(219, 147, 13);
     transform: scaleX(-1);
 }

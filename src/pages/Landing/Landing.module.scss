@@ -1,17 +1,15 @@
 .Landing {
     background-image: url('https://i.pinimg.com/originals/b5/77/40/b5774094eb04698ac372aff3cf7f726b.gif');
     background-size: cover;
-    background-color: wheat;
     width: 100%;
-    height: 65%;
+    height: 25vw;
     display: flex;
-    border: .1vmin solid white;
 }
 
 .banner {
-    color:black;
+    color: black;
     background-color: blanchedalmond;
-    font-size: 05rem;
+    font-size: 5vw;
     float: left;
     width: 52%;
     height: 100%;
@@ -19,5 +17,16 @@
     align-items: center;
     justify-content: center;
     padding-right: 15%;
-    border: .1vmin solid white;
+    flex-direction: column;
+}
+
+.miami {
+    font-size: 4vw;
+    color: rgb(219, 147, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10%;
+    flex-direction: column;
+    margin-top: -1%;
 }

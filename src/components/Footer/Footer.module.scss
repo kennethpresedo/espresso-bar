@@ -1,24 +1,30 @@
 .Footer {
     background-color: wheat;
     width: 100%;
-    height: 47%;
+    height: 15vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 5rem;
-    border: .1vmin solid white;
+    justify-content: space-evenly;
+    font-size: 3vw;
 }
 
 .name{
-    width: 10%;
+    color: black;
+}
+.miami{
+    margin-top: -1%;
+    color: rgb(219, 147, 13);
+    margin-bottom: 1%;
+    font-size: 2.5vw;
 }
 
 .banner {
     color: black;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .text:hover{
     cursor: pointer;
+    opacity: .2;
 }

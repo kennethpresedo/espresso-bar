@@ -18,7 +18,7 @@ export default function AuthPage({ setUser }) {
       <Break />
       <Arabica />
       <Robusta />
-      <div>
+      <div className={styles.authBox}>
         <h3 onClick={() => setShowLogin(!showLogin)}>{showLogin ? 'Not A Member?' : 'Already A Member?'}</h3>
       {showLogin ? <LoginForm setUser={setUser} /> : <SignUpForm setUser={setUser} />}
       </div>

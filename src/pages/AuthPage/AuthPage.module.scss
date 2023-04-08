@@ -1,25 +1,15 @@
-.AuthPage {
-    height: 80%;
-    width: 100%;
-    font-size: 3rem;
-    margin-bottom: 5vmin;
-  }
-  
-  .AuthPage h3 {
-    font-weight: 800;
-    color:blanchedalmond;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 4vmin;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
- 
-  .AuthPage div{
-    margin-top: 7vmin;
-    margin-bottom: 7vmin;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+.authBox {
+  background-color: red;
+  margin-top: -1.3vw;
+  height: 20vw;
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.AuthPage h3 {
+  font-weight: 800;
+  color: var(--o);
+  text-align: center;
+  cursor: pointer;
+}
