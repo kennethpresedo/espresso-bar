@@ -8,6 +8,7 @@ import MenuList from '../../components/MenuList/MenuList';
 import CategoryList from '../../components/CategoryList/CategoryList';
 import OrderDetail from '../../components/OrderDetail/OrderDetail';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
+import Start from '../../components/Start/Start';
 
 export default function NewOrderPage({ user, setUser }) {
   const [menuItems, setMenuItems] = useState([]);
@@ -16,7 +17,7 @@ export default function NewOrderPage({ user, setUser }) {
   const categoriesRef = useRef([]);
   const navigate = useNavigate();
 
-  useEffect(function() {
+  useEffect(function () {
     async function getItems() {
       const items = await itemsAPI.getAll();
       categoriesRef.current = items.reduce((cats, item) => {
@@ -55,8 +56,8 @@ export default function NewOrderPage({ user, setUser }) {
 
   return (
     <main className={styles.NewOrderPage}>
-     <div className={styles.aside}>
-        {/* <Logo /> */}
+      <div className={styles.aside}>
+        <Start />
         <CategoryList
           categories={categoriesRef.current}
           cart={setCart}

@@ -1,6 +1,6 @@
 .authBox {
-  background-color: red;
-  margin-top: -1.3vw;
+  font-family: 'Josefin Slab', serif;
+  background-color: rgb(219, 147, 13);
   height: 20vw;
   width: 100%;
   padding-left: 25%;
@@ -8,8 +8,13 @@
 }
 
 .AuthPage h3 {
-  font-weight: 800;
-  color: var(--o);
+  color: blanchedalmond;
   text-align: center;
   cursor: pointer;
+  padding-top: 2vw;
+  margin-bottom: -2vw;
+}
+
+h3:hover{
+  color: black;
 }

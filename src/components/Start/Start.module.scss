@@ -1,0 +1,36 @@
+.start{
+    height: 16vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: .1vw solid blanchedalmond;
+    margin-top: -.2vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    width: 50%;
+    float: left;
+    align-items: center;
+    background-color: #ecd3bf;
+    color: #000;
+   // color: #909e84; green color 
+   // color: #5bccf6; blue color
+    font-size: 3vw;
+    height: 100%;
+}
+.right{
+    display: flex;
+    width: 50%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    background-color: #000;
+    color: var(--o);
+    height: 100%;
+}
+

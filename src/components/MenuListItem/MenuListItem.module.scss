@@ -3,19 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3vmin;
-  padding: .5vmin;
-  padding-left: 5%;
-  padding-right: 2%;
-  font-size: 5rem;
-  color: blanchedalmond;
+  padding: 1vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: black;
 }
 
 
 .MenuListItem .buy {
   display: flex;
   flex-direction: row;
-  row-gap: 3%;
 }
 
 .MenuListItem .buy span {
@@ -24,15 +21,14 @@
   justify-items: center;
   font-size: 2.5vw;
   text-align: center;
-  color: blanchedalmond;
+  color: var(--o);
 }
 
 .MenuListItem .name {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   text-align: center;
-  color: blanchedalmond;
 }
 
 .emoji{
-  font-size: 6vmin;
+  font-size:2vw;
 }

@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Lobster+Two&family=Merriweather:wght@300&family=PT+Serif:ital,wght@1,700&family=Playfair+Display&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200;300;400&family=Zilla+Slab:wght@400;700&display=swap');
 
 :root {
     --white: #FFFFFF;
     --tan-1: #FBF9F6;
     --o: rgb(219, 147, 13);
-
-    /* background-image: url('https://img.freepik.com/free-photo/blue-gold-marble-textured-background_53876-101585.jpg?w=2000&t=st=1674870898~exp=1674871498~hmac=d6e1c94853ebd3c80fa020ccfde36f227bb71f8b380cf9350b259824c0d1bb50');   */
-   background-image: url('https://static.vecteezy.com/system/resources/previews/005/676/286/original/abstract-colorful-background-wallpaper-mixing-acrylic-paints-modern-art-paint-marble-texture-alcohol-ink-colors-translucent-free-vector.jpg');
-   /*background-image: ('https://img.freepik.com/free-vector/realistic-liquid-marble-background-with-gold_23-2148897013.jpg');  */
+  background-color: rgb(219, 147, 13);
+   /* background-image: url('https://static.vecteezy.com/system/resources/previews/005/676/286/original/abstract-colorful-background-wallpaper-mixing-acrylic-paints-modern-art-paint-marble-texture-alcohol-ink-colors-translucent-free-vector.jpg'); */
    background-size: cover;
   }
 
@@ -17,8 +15,7 @@
 
   body {
     margin: 0;
-    font-family: 'Italiana', serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Josefin Slab', serif;
     -moz-osx-font-smoothing: grayscale;
     height: 100vh;
   }
@@ -75,7 +72,8 @@
 
   /*Login/Signup email password*/
   .form-container {
-    padding: 1vw;
+    padding: 3vw;
+    font-family: 'Josefin Slab', serif;
   } 
 
   /*Login/Signup*/
@@ -85,6 +83,7 @@
     font-weight: 800;
     padding: 5%;
     text-align: center;
+    font-family: 'Josefin Slab', serif;
   }
 
   /*Login/Signup*/
@@ -92,7 +91,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     color: blanchedalmond;
-    font-weight: 800;
+    font-family: 'Josefin Slab', serif;
   } 
 
   /*Login/Signup*/
@@ -100,30 +99,34 @@
     font-size: 2vw;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    font-family: 'Josefin Slab', serif;
   }
 
   /*Login/Signup*/
   input {
-    font-family: 'Italiana', serif;
-    padding: .5vw;
+    font-family: 'Josefin Slab', serif;
+    padding: .6vw;
     background-color:transparent;
-    font-size: .8vw;
-    border: .2vw solid blanchedalmond;
+    font-size: 1vw;
+    border: .1vw solid blanchedalmond;
     border-radius: .5vw;
     color: black;
-    background-image: none !important;
+    /* background-image: none !important; */
     /* prevent lastpass */
     outline: none;
   }
 
   /*Login/Signup*/
   input:focus {
-    border-color: black;
+    border-color: blanchedalmond;
+    opacity: .7;
+    font-family: 'Josefin Slab', serif;
   }
 
   /*all buttons*/
   button, a.button {
-    font-family: 'Italiana', serif;
+
+    font-family: 'Josefin Slab', serif;
     margin: 1vmin;
     padding: 1vmin;
     color: black;
@@ -163,18 +166,18 @@ button.btn-smCK:hover{
 }
 
 button.btn-smADD {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   background-color: transparent;
-  color: blanchedalmond;
-  border: .2vmin solid blanchedalmond;
-  padding: .1vmin .8vmin;
+  color: black;
+  border: .1vw solid black;
+  padding: .2vw .8vw;
 }
 
 button.btn-smADD:hover {
-  font-size: 1.5rem;
-  background-color: blanchedalmond;
-  color: black;
-  padding: .1vmin .8vmin;
+  font-size: 1.5vw;
+  color: var(--o);
+  background-color: black;
+  padding: .2vw .8vw;
 }
 
   /*quantity in cart*/
@@ -199,8 +202,12 @@ button.btn-smADD:hover {
   }
 
   a.link {
-  color: blanchedalmond;
+   
+    color: var(--o);
   text-decoration: none;
+  }
+  a.link:hover {
+    color: #000;
   }
 
   button.btn-smLO {

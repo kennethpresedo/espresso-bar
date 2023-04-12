@@ -4,13 +4,11 @@ import styles from './NavBar.module.scss';
 export default function NavBar() {
   return (
     <nav>
-      <Link className="link" to="/orders/new">New Order</Link>
-      &nbsp;&nbsp;<span className='span'>|</span>&nbsp;&nbsp;
-      <Link className="link" to="/orders">Order History</Link>
-
-
-
-
+      <div className={styles.links}>
+      <Link className="link" to="/orders/new">Place New Order</Link>
+      <Link className="link" to="/orders">View Order History</Link>
+      </div>
+      <div className={styles.espressoBar}>Espresso<br />Bar</div>
     </nav>
   );
 }
