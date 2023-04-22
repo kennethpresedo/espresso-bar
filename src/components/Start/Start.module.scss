@@ -15,11 +15,9 @@
     width: 50%;
     float: left;
     align-items: center;
-    background-color: #ecd3bf;
-    color: #000;
-   // color: #909e84; green color 
-   // color: #5bccf6; blue color
-    font-size: 3vw;
+    background-color: #23242c;
+    color: var(--o);
+    font-size: 3.5vw;
     height: 100%;
 }
 .right{
@@ -29,8 +27,8 @@
     align-items: center;
     justify-content: center;
     font-size: 4vw;
-    background-color: #000;
-    color: var(--o);
+    background-color: blanchedalmond;
+    color: #000;
     height: 100%;
 }
 

@@ -1,6 +1,6 @@
 .CategoryList {
-    background-color: #000;
-    color: var(--o);;
+    background-color: #ecd3bf;
+    color: #000;
     list-style: none;
     font-size: 3vw;
     display: grid;
@@ -8,10 +8,13 @@
     grid-template-rows: 1fr;
     gap: 1.8vw;
     margin-bottom: 1vw;
-    margin-top: .2vw;
+    margin-top: 2vw;
     margin-bottom: -1vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
+    border-top: solid #23242c 2vw;
+    border-right: solid #23242c 2vw;
+    border-left: solid #23242c 2vw;
     }
     
     .CategoryList li {
@@ -22,7 +25,7 @@
     
     .CategoryList li:hover:not(.active) {
     cursor: pointer;
-    background-color: #ecd3bf;
+    background-color: blanchedalmond;
     color: black;
     }
     

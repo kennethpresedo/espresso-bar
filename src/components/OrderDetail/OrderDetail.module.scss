@@ -5,9 +5,13 @@
     align-items: center;
     padding: 3vmin;
     font-size: 2vmin;
-    color: var(--text-light);
-    border: .2vmin solid blanchedalmond;
-    background-color: black;
+    color: black;
+    padding: 2vw;
+    border: .2vmin solid var(--o);
+    background-color: #ecd3bf;
+    margin: 0 1vw 0 1vw;
+    margin-top: 2vw;
+    border: solid #23242c 2vw;
   }
   
   .OrderDetail .sectionHeading {
@@ -17,8 +21,7 @@
     padding: 2%;
     font-size: 2rem;
     width: 100%;
-    // border: .2vmin solid blanchedalmond;
-    color: blanchedalmond;
+    color: black;
   }
   
   .OrderDetail .lineItemContainer {
@@ -26,9 +29,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 3vmin;
-    //height: calc(100vh - 18vmin);
     width: 100%;
-    border: .2vmin solid blanchedalmond;
   }
   
   .OrderDetail .total {
@@ -38,18 +39,12 @@
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;
-    // display: grid;
-    // grid-template-columns: 18.35vw 5.75vw 5.25vw;
     padding: 2vmin;
     background-color: blanchedalmond;
     color: black;
-    border-top: .1vmin solid white;
   }
   
   .OrderDetail .total span {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     font-size: 2.5vw;
     color: black;
   }

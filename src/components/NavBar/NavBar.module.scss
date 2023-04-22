@@ -1,5 +1,4 @@
 nav {
-   // margin: .3vw;
     height: 7vw;
     display: flex;
     flex-direction: row;
@@ -13,7 +12,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     padding-left: 8.5vw;
-    background-color: #000;
+    background-color: blanchedalmond;
     width: 50%;
     float: left;
 }
@@ -24,8 +23,8 @@ nav {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 8.5vw;
-    background-color: #ecd3bf;
-    color: #000;
+    background-color: #23242c;
+    color: var(--o);
     width: 50%;
     float: right;
     font-size: 2.5vw;
