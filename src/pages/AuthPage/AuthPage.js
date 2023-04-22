@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from './AuthPage.module.scss';
 import LoginForm from '../../components/LoginForm/LoginForm';
 import SignUpForm from '../../components/SignUpForm/SignUpForm';
-// import Logo from '../../components/Logo/Logo';
 import Landing from '../Landing/Landing';
 import Break from '../../components/Break/Break';
 import Arabica from '../../components/Arabica/Arabica';

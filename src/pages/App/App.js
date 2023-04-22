@@ -6,7 +6,6 @@ import AuthPage from '../AuthPage/AuthPage';
 import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
-import OrderDetail from '../../components/OrderDetail/OrderDetail';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
